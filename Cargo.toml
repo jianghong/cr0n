@@ -1,5 +1,5 @@
 [package]
-name = "cr0n"
+name = "crust"
 version = "0.1.0"
 authors = ["Jackson Hong <jackson.hong@shopify.com>"]
 

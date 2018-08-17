@@ -1,11 +1,11 @@
 extern crate toml;
-extern crate cr0n;
+extern crate crust;
 
 use std::fs;
 use std::time::{Duration, SystemTime};
 use std::thread::sleep;
 use toml::Value;
-use cr0n::runner;
+use crust::runner;
 
 fn main() {
 	let schedule_contents = fs::read_to_string("test/schedule.toml").expect("Fail");
@@ -27,7 +27,7 @@ fn main() {
 
 		if minute_checker(&minute_programs, now, minute_clock) {
 			minute_clock = now;
-		}		
+		}
 
 		sleep(Duration::new(1, 0));
 	}
