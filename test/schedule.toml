@@ -1,0 +1,7 @@
+every_ten_seconds = [
+	"echo ten_seconds"
+]
+
+every_minute = [
+	"echo minute"
+]
