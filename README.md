@@ -22,7 +22,6 @@ every_ten_seconds = [
 every_minute = [
     "echo minute"
 ]
-
 ````
 
 Get output
