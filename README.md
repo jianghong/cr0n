@@ -1,6 +1,6 @@
 crust
 ----
-A scheduled process runner, like cron; written in rust; readable schedule defined in TOML.
+A scheduled process runner, like cron; written in rust; readable scheduler definition in TOML.
 
 ````
 crust
