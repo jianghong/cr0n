@@ -24,7 +24,7 @@ every_minute = [
 ]
 ````
 
-Output
+Usage
 ----
 ````
 ➜  crust git:(master) ✗ cargo run
