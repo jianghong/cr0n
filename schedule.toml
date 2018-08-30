@@ -1,0 +1,7 @@
+every_ten_seconds = [
+	"echo ten_seconds 1",
+	"./monitor 'https://bridgeschool.io/apply-design/' 'Cohort 1 first round applications are now closed",
+]
+
+every_minute = [
+]
